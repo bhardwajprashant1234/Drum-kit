@@ -1,87 +1,108 @@
-body {
-  text-align: center;
-  background: radial-gradient(
-    circle,
-    rgb(21, 2, 60) 0%,
-    rgb(149, 150, 151) 100%
-  );
-}
-
-.Simon {
-  font-family: "Press Start 2P", cursive;
-  margin-bottom: 0px;
-  color: #401c40;
-}
-
-#level-title {
-  font-family: "Press Start 2P", cursive;
-  font-size: 40px;
-  padding: 20px;
-  margin-bottom: 0px;
-  color: #4ddc76;
-  background: -webkit-linear-gradient(147deg, #75c0fd 0%, #700000 74%);
-
-  -webkit-text-fill-color: transparent;
-  color: rgb(157, 53, 134);
-}
-
-.score {
-  font-family: "Press Start 2P", cursive;
-  font-size: 1.5rem;
-  padding-top: 20px;
-  padding-bottom: 20px;
-  color: #6b39b7;
-  margin-bottom: 0px;
-}
+h1,
+h1,
+h3,
+h4,
+ul,
+li,
 p {
-  padding-top: 30px;
-  font-size: 1.2rem;
-  font-family: Times, "Times New Roman", Georgia, serif;
-  word-spacing: 0.5rem;
-  font-weight: 800;
-}
-.container {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 15px;
-  max-width: 550px;
+  margin: 0;
+  padding: 6px;
+  font-family: "Mochiy Pop One", sans-serif;
 }
 
-.btn {
-  margin: 1.5 rem auto;
-  padding: 0.5rem;
-  height: 200px;
-  width: 200px;
-  border: 0.325rem solid rgb(60, 3, 54);
-  border-radius: 30%;
+img {
+  max-width: 100%;
 }
 
-.game-over {
-  background: rgb(209, 21, 21);
-  background: radial-gradient(
-    circle,
-    rgb(209, 21, 21) 0%,
-    rgb(88, 187, 17) 34%
-  );
+body {
+  font-family: Arial;
+  color: rgb(27, 22, 22);
 }
 
-.red {
-  background-color: #187f8d;
+header {
+  padding: 50px;
+  background-color: rgb(100, 58, 208);
+  color: rgb(98, 5, 19);
+  text-align: center;
+  margin-bottom: 20px;
 }
 
-.green {
-  background-color: rgb(138, 28, 114);
+main {
+  max-width: 800px;
+  padding: 20px;
+  margin: auto;
+  display: flex;
+  justify-content: space-between;
 }
 
-.blue {
-  background-color: rgb(11, 228, 94);
+main form {
+  width: 40%;
 }
 
-.yellow {
-  background-color: rgb(11, 1, 157);
+main article {
+  width: 45%;
 }
 
-.pressed {
-  box-shadow: 0 0 1.25rem rgb(9, 136, 24);
-  background-color: rgb(42, 156, 156);
+h1,
+h2,
+h3,
+h4,
+p {
+  margin-bottom: center;
+}
+
+#title {
+  text-align: center;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5em;
+  color: rgb(113, 55, 8);
+  font-family: "Fira Sans", sans-serif;
+}
+
+input,
+textarea,
+#details_form button {
+  display: block;
+  width: 100%;
+  margin-bottom: 1em;
+  border: 1px solid rgb(18, 120, 88);
+  padding: 10px;
+  box-sizing: border-box;
+}
+
+.card {
+  padding: 20px;
+  background-color: #fffafa;
+  margin-bottom: 20px;
+}
+
+.bg {
+  background-image: url("https://images7.alphacoders.com/617/617537.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%, 100%;
+}
+
+h2 {
+  color: rgb(201, 23, 121);
+}
+
+h3,
+h4 {
+  padding-bottom: 5px;
+}
+
+.card-text {
+  padding-bottom: 10px;
+}
+
+#btn {
+  font-family: "Acme", sans-serif;
+  font-size: 20px;
+}
+
+#btn:hover {
+  background-color: rgb(20, 6, 6);
 }
