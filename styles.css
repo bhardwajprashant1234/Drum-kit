@@ -1,81 +1,98 @@
+h1, h1, h3, h4, ul, li, p{
+    margin: 0;
+    padding: 6px;
+    font-family: 'Mochiy Pop One', sans-serif;
+}
+
+img {
+    max-width: 100%;
+}
+
 body {
-  text-align: center;
-  background-color: #194bd5;
+    font-family: Arial;
+    color: rgb(39, 38, 38);
 }
 
-h1 {
-  font-size: 5rem;
-  color: #109ac9c7;
-  font-family: "Arvo", cursive;
-  text-shadow: 3px 0 #48da04;
-
+header {
+    padding: 50px;
+    background-color: rgb(37, 161, 48);
+    color: rgb(72, 34, 131);
+    text-align: center;
+    margin-bottom: 20px;
 }
 
-footer {
-  color: #DBEDF3;
-  font-family: sans-serif;
+main{
+    max-width: 800px;
+    padding: 20px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
 }
 
-.w {
-  background-image: url("crash.png");
+main form {
+    width: 40%;
 }
 
-.a {
-  background-image: url("kick.png");
+main article{
+    width: 45%;
 }
 
-.s {
-  background-image: url("snare.png");
+h1, h2, h3, h4, p{
+    margin-bottom: center;
 }
 
-.d {
-  background-image: url("tom1.png");
+#title {
+    text-align: center;
 }
 
-.j {
-  background-image: url("tom2.png");
+label {
+    display: block;
+    margin-bottom: .5em;
+    color:rgb(190, 110, 44);
+    font-family: 'Fira Sans', sans-serif;
 }
 
-.k {
-  background-image: url("tom3.png");
+input, textarea, #details_form button {
+    display: block;
+    width: 100%;
+    margin-bottom: 1em;
+    border: 1px solid rgb(146, 67, 67) ;
+    padding: 10px;
+    box-sizing: border-box;
 }
 
-.l {
-  background-image: url("tom4.png");
+.card {
+    padding: 20px;
+    background-color: #efefef;
+    margin-bottom: 20px;
 }
 
-.set {
-  margin: 10% auto;
-}
+.bg{
+    background-image: url('https://images7.alphacoders.com/617/617537.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% , 100%;
 
-.game-over {
-  background-color: rgb(67, 37, 213);
-  opacity: 0.8;
-}
+   }
 
-.pressed {
-  box-shadow: 0 3px 4px 0 #218eb3;
-  opacity: 0.5;
-}
+   h2{
+       color:rgb(50, 20, 120);
+   }
 
-.red {
-  color: rgb(15, 180, 195);
-}
+   h3, h4 {
+    padding-bottom: 5px;
+   }
 
-.drum {
-  outline: none;
-  border: 10px solid #214abd;
-  font-size: 5rem;
-  font-family: 'Arvo', cursive;
-  line-height: 2;
-  font-weight: 900;
-  color: #6cba1e;
-  text-shadow: 3px 0 #DBEDF3;
-  border-radius: 15px;
-  display: inline-block;
-  width: 150px;
-  height: 150px;
-  text-align: center;
-  margin: 10px;
-  background-color: rgb(157, 216, 40);
-}
+   .card-text{
+    padding-bottom: 10px;
+   }
+
+   #btn{
+    font-family: 'Acme', sans-serif;
+    font-size: 20px;
+   }
+
+   #btn:hover{
+       background-color: rgb(20, 6, 6);
+   }
+
+  
