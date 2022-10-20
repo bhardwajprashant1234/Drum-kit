@@ -4,8 +4,8 @@ body {
 }
 
 h1 {
-  font-size: 5rem;
-  color: #DBEDF3;
+  font-size: 5.25rem;
+  color: #e6f9ff;
   font-family: "Arvo", cursive;
   text-shadow: 3px 0 #DA0463;
 
@@ -50,7 +50,7 @@ footer {
 
 .game-over {
   background-color: red;
-  opacity: 0.8;
+  opacity: 0.78;
 }
 
 .pressed {
